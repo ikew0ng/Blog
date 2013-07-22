@@ -61,6 +61,8 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
+# Weibo
+weibo_user: 1797272061
 
 # Github repositories
 github_user: Issacw0ng

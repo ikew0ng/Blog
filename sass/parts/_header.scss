@@ -348,6 +348,13 @@ $header-height: 30px;
 					border: 1px solid darken(rgb(175,182,202), 10%);
 				}
 			}
+			&.weibo{
+				background: image-url('social/weibo.png') center no-repeat rgb(213,43,42);
+				border: 1px solid rgb(213,43,42);
+				&:hover{
+					border: 1px solid darken(rgb(213,43,42), 10%);
+				}
+			}
 			&.coderwall{
 				background: image-url('social/coderwall.png') center no-repeat #3E8DCC;
 				border: 1px solid #3E8DCC;
