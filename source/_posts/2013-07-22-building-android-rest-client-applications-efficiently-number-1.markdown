@@ -5,15 +5,15 @@ date: 2013-07-22 13:50
 comments: true
 categories: Android
 ---
-{% img /media/building-android-rest-application-efficiently/Driibo_on_MX2.jpg 600 384 Driibo on MX2 %}
+{% img /media/building-android-rest-application-efficiently/Driibo_on_MX2.jpg 800 512 Driibo on MX2 %}
 
-日常使用的各种客户端：新浪微博客户端、Google+、Path、人人等，都属于REST App，如何快速的构建`REST`客户端也成为了近年来`Google IO`大会上的热门课题，而我在这方面也投入了近一年的经历（从[项目经历][1]来看，简直就是客户端专业户了，泪···）。下面我将以最近开发的[Driibo][2]为例，介绍开发`REST`客户端的一些经验。
+日常使用的各种客户端：新浪微博客户端、Google+、Path、人人等，都属于REST App，如何快速的构建`REST`客户端也成为了近年来`Google IO`大会上的热门课题，而我在这方面也投入了近一年的经历（从[项目经历][1]来看，简直就是客户端专业户了，泪···）。下面我将以最近开发的[Driibo(on github)][2]为例，手把手带大家开发`REST`客户端。
 <!--more-->
 
 - - -
 应用架构
 ===
-
+![](/media/2013-07-22-building-android-rest-client-applications-efficiently/architecture.png)
 - - -
 网络通讯
 ===
@@ -140,6 +140,18 @@ public class BitmapLruCache extends LruCache<String, Bitmap> implements ImageLoa
 
 **Be Careful:** 切不可在列表中混用`NetworkImageView`和`ImageLoader`，否则会出现图像无法加载的情况，原因未查证。。。
 
+- - -
+相关演讲
+===
+* [Google I/O 2010 - Android REST client applications](http://www.youtube.com/watch?v=xHXn3Kg2IQE)
+* [Google I/O 2013 - Volley: Easy, Fast Networking for Android](http://www.youtube.com/watch?v=yhv8l9F44qo)
+
+需<del>翻墙</del>
+
+- - -
+下一章
+===
+[快速构建Android REST客户端#2](/blog/2013/07/22/building-android-rest-client-applications-efficiently-number-2/)
 
 [1]: /project
 [2]: https://github.com/Issacw0ng/Dribbo
