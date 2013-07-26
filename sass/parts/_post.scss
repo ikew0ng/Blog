@@ -26,7 +26,7 @@
 			position: relative;
 			&:before{
 				color: $color-gray03;
-				font: 1.3em $font-icon;
+				font: 1.3em $font-default;
 				line-height: 1.6em;
 				position: absolute;
 				left: 0;
@@ -36,9 +36,6 @@
 				margin-right: 30px;
 			}
 		}
-		.date:before{content: "\f073";}
-		.tags:before{content: "\f02c";}
-		.comments:before{content: "\f075";}
 	}
   hr{
 		height: 0;

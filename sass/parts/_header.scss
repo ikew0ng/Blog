@@ -320,6 +320,13 @@ $header-height: 30px;
 			&:hover{
 				opacity: 1;
 			}
+			&.weibo{
+				background: image-url('social/weibo.png') center no-repeat rgb(213,43,42);
+				border: 1px solid rgb(213,43,42);
+				&:hover{
+					border: 1px solid darken(rgb(213,43,42), 10%);
+				}
+			}
 			&.facebook{
 				background: image-url('social/facebook.png') center no-repeat #3B5998;
 				border: 1px solid #3B5998;
@@ -346,13 +353,6 @@ $header-height: 30px;
 				border: 1px solid rgb(175,182,202);
 				&:hover{
 					border: 1px solid darken(rgb(175,182,202), 10%);
-				}
-			}
-			&.weibo{
-				background: image-url('social/weibo.png') center no-repeat rgb(213,43,42);
-				border: 1px solid rgb(213,43,42);
-				&:hover{
-					border: 1px solid darken(rgb(213,43,42), 10%);
 				}
 			}
 			&.coderwall{
