@@ -3,7 +3,7 @@ layout: post
 title: "Black Mirror"
 date: 2013-07-21 15:04
 comments: true
-categories: Life
+categories: Movie
 ---
 在家休息的这段时间尝试了各种口味的电视剧。
 

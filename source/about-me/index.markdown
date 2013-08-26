@@ -7,15 +7,16 @@ sharing: false
 footer: false
 ---
 * `碎某`常年混迹于网络，热衷于移动开发，迷恋设计与用户体验
-* 专注于开发流畅体验极致的移动应用，Make people think less and acquire more
+* 专注于开发 流畅·极致·简约·像素完美 的移动应用，Make people think less and acquire more
 * `iMID` = Love mobile internet and devices
 * 偶尔下厨房，爱唱小曲儿，努力学习摄影
+* Engineer of MIUI framework team
 
 
 
 Contact Me
 ============
-* Email: <issac@imid.me> <issac@refactech.com>
+* Email: <issac@imid.me>, <issac@refactech.com>
 * Sina-Weibo: [@RefacTech碎星](http://weibo.com/issacsuixing)
 
 
