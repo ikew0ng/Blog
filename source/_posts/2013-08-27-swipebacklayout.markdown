@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "SwipeBackLayout"
+title: "极简滑动返回库(OpenSource)"
 date: 2013-08-27 01:37
 comments: true
 categories: Android
 ---
-在很久的一段时间，我都对Fuubo的滑动返回不太满意，一直想做一个更棒的滑动返回，于是便挖了这么大一个坑，意外的完成了这个滑动返回库，希望能够对各位工程师有所帮助。
-欢迎各路高手加盟！
+最近一段时间，我对Fuubo的滑动返回不太满意，一直想做一个更棒的滑动返回，于是便挖了一个坑，一鼓作气的完成了这个滑动返回库，希望能够对各位有所帮助。
 
 ![](https://github.com/Issacw0ng/SwipeBackLayout/blob/master/art/screenshot.png?raw=true)
 
 <!-- more -->
 
 `SwipeBackLayout`支持左右侧滑，以及向上滑动返回，更重要的是，导入简单，直接替代原有`Activity`即可。
+
 
 源代码
 ===
@@ -77,3 +77,5 @@ public class DemoActivity extends SwipeBackActivity implements View.OnClickListe
     }
 ...
 ```
+
+关于`SwipeBackLayout`原理的解析，会在稍晚些时候补上。
